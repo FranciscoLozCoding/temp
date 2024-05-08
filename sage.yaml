@@ -1,6 +1,6 @@
 name: "flooding-classifier"
 namespace: "waggle"
-version: "0.1.0"
+version: "0.0.1"
 description: "Flooding Classifier"
 authors: "Francisco Lozano"
 collaborators: "Waggle Team <https://wa8.gl>"
