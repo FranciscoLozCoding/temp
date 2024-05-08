@@ -1,2 +1,2 @@
 # keras
-pywaggle[all]==0.55.*
+pywaggle[all]
