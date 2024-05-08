@@ -5,12 +5,12 @@ description: "Flooding Classifier"
 authors: "Francisco Lozano"
 collaborators: "Waggle Team <https://wa8.gl>"
 keywords: "flooding detection, machine learning, Keras"
-homepage: "" #TODO: git repo
+# homepage: "" #TODO: git repo
 source:
     architectures:
         - "linux/arm64"
         - "linux/amd64"
-    url: "" #TODO: git repo
+    # url: "" #TODO: git repo
     branch: "main"
 inputs:
     - id: "stream"
