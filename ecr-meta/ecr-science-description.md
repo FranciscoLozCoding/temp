@@ -1,17 +1,17 @@
 # Science
 
-Classifies image that is collected from bottom camera on Sage/Waggle node. The method is based on the MobileNet and head for image classification. It was created as an example how [KERAS](https://keras.io/) can be used with Sage to easily create and test Models for the Edge.
+Classifies images that are collected from a bottom camera on a Sage/Waggle node. The method is based on the MobileNet model. It was created as an example how [KERAS](https://keras.io/) can be used with Sage to easily create and test Models for the Edge.
 
 # AI at Edge
 
-The code runs a MobileNet based model with a given time interval. In each run, it takes a still image from a given camera (bottom) and outputs if flooding is detected or not (1 or 0). The plugin crops  resizes images to 224x224 as the model was trained with the size.
+The code runs a MobileNet based model with a given time interval. In each run, it takes a still image from a given camera (bottom) and outputs if flooding is detected or not (1 or 0). The plugin resizes images to 224x224 as the model was trained with the size.
 
 # Ontology
 
-The code publishes measurement with topic `env.binary.flood`.
+The code publishes measurements with a topic of `env.binary.flood`.
 
 # Inference from Sage codes
-To query the output from the plugin, you can do with python library 'sage_data_client':
+To query the output from the plugin, you can do so with the python library 'sage_data_client':
 ```
 import sage_data_client
 
