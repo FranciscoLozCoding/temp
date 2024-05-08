@@ -2,7 +2,7 @@ name: "Flooding_classifier"
 namespace: "waggle"
 version: "0.1.0"
 description: "Flooding Classifier"
-authors: "Francisco Lozano <seongha.park@anl.gov>"
+authors: "Francisco Lozano"
 collaborators: "Waggle Team <https://wa8.gl>"
 keywords: "flooding detection, machine learning, Keras"
 homepage: "" #TODO: git repo
