@@ -4,7 +4,7 @@ version: "0.1.0"
 description: "Flooding Classifier"
 authors: "Francisco Lozano <seongha.park@anl.gov>"
 collaborators: "Waggle Team <https://wa8.gl>"
-keywords: "flooding detection, machine learning"
+keywords: "flooding detection, machine learning, Keras"
 homepage: "" #TODO: git repo
 source:
     architectures:
