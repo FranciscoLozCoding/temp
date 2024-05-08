@@ -1,0 +1,2 @@
+keras
+pywaggle[all]==0.55.*
