@@ -1,4 +1,4 @@
-name: "Flooding-classifier"
+name: "Flooding_classifier"
 namespace: "waggle"
 version: "0.1.0"
 description: "Flooding Classifier"
