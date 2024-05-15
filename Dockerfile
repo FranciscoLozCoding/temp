@@ -1,6 +1,5 @@
-FROM waggle/plugin-tensorflow:2.0.0-cuda-l4t
+FROM waggle/plugin-base:1.1.1-ml-tensorflow2.3-arm64
 WORKDIR /app
 ENV MODEL /app/flood_detection_model.keras
 COPY /app /app
-RUN pip install -r ./requirements.txt
 CMD ["python", "app.py"]
