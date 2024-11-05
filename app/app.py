@@ -57,7 +57,8 @@ def run(model, sample, do_sampling, plugin):
     result = np.argmax(predictions)
 
     plugin.publish(TOPIC, result, timestamp=timestamp)
-    logging.debug(f"run(): {LABELS[result]} at time: {timestamp}")
+    msg = f"run(): {LABELS[result]} at time: {timestamp}"
+    logging.debug(msg)
 
     if do_sampling:
         sample.data = image
